@@ -1,0 +1,117 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Roboto:ital,wght@1,100&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Roboto:ital,wght@1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+  
+   
+}
+body{
+    background-color: wheat;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color:black;
+    color: white;
+    list-style: none;
+    font-family: lato,sans-serif;
+    cursor: pointer;
+    
+}
+nav ul li{
+    padding: 0 5px;
+}
+.brand img{
+   width: 50px;
+   padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem ;
+    
+}
+.container{
+    background-color: black;
+    color: white;
+   min-height: 65vh;
+   display: flex;
+   width: 70%;
+   margin: 20px auto;
+   border-radius: 12px;
+   background-image: url(bg4.avif);
+  background-size: cover;
+   background-repeat: no-repeat;
+   padding: 5px 5px;
+}
+.container img{
+    width: 50px;
+}
+.songlist{
+
+}
+.songitemcontainer{
+    margin: 12px;
+}
+.songItem{
+    width: 20vw;
+    height: 35px;
+    display: flex;
+    color: black;
+    background-color:white;
+    border-radius: 30px;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem img{
+    width: 20px;
+    border-radius: 50px;
+    margin: 2px 20px;
+ 
+}
+.timeDuration{
+    margin: 12px;
+}
+.bottom{
+    position: sticky;
+    height: 123px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.icons{
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.fa-3x{
+    font-size: 1rem;
+    padding: 0 2px;
+    margin-top: 10px;
+}
+#progressbar{
+    width: 80vw;
+}
+nav img{
+    border-radius: 35px;
+}
