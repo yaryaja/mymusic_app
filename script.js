@@ -8,7 +8,7 @@ let songItems=Array.from(document.getElementsByClassName('songItem'));
 let songs=[
     {songname:"Jack sparrow BGM",filePath:"song/1.mp3",coverPath:"covers/2.jpeg"},
     {songname:"besharam rang",filePath:"song/2.mp3",coverPath:"covers/1.jpg"},
-    {songname:"shoka",filePath:"song/3.mp3",coverPath:"covers/1.jpg"},
+    {songname:"Dhoka",filePath:"song/3.mp3",coverPath:"covers/1.jpg"},
     {songname:"dil galti kar baitha",filePath:"song/4.mp3",coverPath:"covers/1.jpg"},
     {songname:"jhoome jo pathaan",filePath:"song/6.mp3",coverPath:"covers/1.jpg"},
     {songname:"maan meri jaan",filePath:"song/6.mp3",coverPath:"covers/1.jpg"},
